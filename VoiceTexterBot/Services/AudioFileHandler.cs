@@ -46,6 +46,12 @@ namespace VoiceTexterBot.Services
             var speechText = SpeechDetector.DetectSpeech(outputAudioPath, _appSettings.InputAudioBitrate, languageCode);
             Console.WriteLine("[*] Файл распознан.");
             Console.ResetColor();
+
+            if (speechText == "")
+            {
+                Console.WriteLine("[?] Неудалось распознать сообщение");
+                return "Не удалось распознать сообщение";
+            }
             return speechText;
         }
     }

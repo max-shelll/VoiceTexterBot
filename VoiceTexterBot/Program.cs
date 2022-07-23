@@ -63,6 +63,7 @@ namespace VoiceTexterBot
                 AudioFileName = "audio",
                 InputAudioFormat = "ogg",
                 OutputAudioFormat = "wav", 
+                InputAudioBitrate = 48000,
             };
         }
     }
