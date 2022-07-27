@@ -59,7 +59,7 @@ namespace VoiceTexterBot
             return new AppSettings()
             {
                 BotToken = "5317896034:AAEL5PJ0CvPs1sv313V318K9MXCAJTuhBMI",
-                DownloadsFolder = "C:\\Users\\максим\\Downloads",
+                DownloadsFolder = "D:\\c#\\Repositories\\VoiceTexterBot\\AudioFiles",
                 AudioFileName = "audio",
                 InputAudioFormat = "ogg",
                 OutputAudioFormat = "wav", 
